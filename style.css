@@ -5,9 +5,10 @@ body {
     color: white;
 }
 
-
+/* HEADER */
 header {
-    padding: 60px 20px;
+    position: relative;
+    padding: 80px 20px 60px 20px;
     text-align: center;
 }
 
@@ -15,6 +16,30 @@ header h1 {
     font-size: 60px;
 }
 
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* FOTO PROFILE */
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid white;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+    transition: 0.3s;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+}
+
+/* BUTTON */
 button {
     background: #ffcc02f7;
     border: none;
@@ -31,7 +56,7 @@ button:hover {
     transform: scale(1.05);
 }
 
-
+/* CONTAINER BOX */
 .container {
     max-width: 1000px;
     margin: auto;
@@ -54,24 +79,7 @@ button:hover {
     background: rgba(255, 255, 255, 0.25);
 }
 
-.image-section {
-    text-align: center;
-    padding: 40px 20px;
-}
-
-.image-section img {
-    width: 80%;
-    max-width: 800px;
-    border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
-    transition: 0.3s;
-}
-
-.image-section img:hover {
-    transform: scale(1.03);
-}
-
-
+/* TABLE */
 .table-section {
     padding: 40px 20px;
     text-align: center;
@@ -100,16 +108,7 @@ tr:hover {
     background: rgba(255,255,255,0.2);
 }
 
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background: rgba(0,0,0,0.3);
-    font-size: 14px;
-}
-
-
-
+/* SOCIAL */
 .social {
     text-align: center;
     padding: 40px 20px;
@@ -136,7 +135,7 @@ footer {
     transform: scale(1.2);
 }
 
-
+/* TOP SOCIAL */
 .top-social {
     position: absolute;
     top: 20px;
@@ -160,8 +159,10 @@ footer {
     transform: scale(1.2);
 }
 
-header {
-    position: relative;
-    padding: 80px 20px 60px 20px;
+/* FOOTER */
+footer {
     text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.3);
+    font-size: 14px;
 }
