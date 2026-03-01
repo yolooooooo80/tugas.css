@@ -205,3 +205,35 @@ footer {
     padding: 20px;
     color: white;
 }
+
+
+/* WELCOME SECTION */
+.welcome-section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.welcome-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* TOMBOL OVAL */
+.btn-tentang {
+    display: inline-block;
+    padding: 12px 35px;
+    border-radius: 50px; /* bikin oval */
+    background: white;
+    color: #c33764;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.btn-tentang:hover {
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    color: white;
+    transform: translateY(-5px);
+}
